@@ -815,4 +815,14 @@ footer {
         margin-top: 10px;
         width: 350px;
     }
+
+    .delivery-features {
+        text-align: left;
+    }
+    .delivery-features strong{
+        text-align: left;
+         white-space: nowrap;
+    }
+
+    
 }
