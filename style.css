@@ -503,22 +503,23 @@ header.scrolled .logo img {
 
 .pharmacy-btn {
     padding: 10px 25px;
-    background: var(--white);
-    border: 1px solid var(--border-color);
+    background: var(--primary-color);
+    border: 1px solid var(--white);
     border-radius: 50px;
     font-weight: 500;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 8px;
+    color: white;
     transition: var(--transition);
 }
 
 .pharmacy-btn.active,
 .pharmacy-btn:hover {
-    background: var(--primary-color);
+    background: rgb(255, 221, 0);
     border-color: var(--white);
-    color: white;
+    color: black;
 
 }
 
@@ -639,8 +640,17 @@ footer {
     }
 
     .hero-image {
-        order: 1;
+        order: 3;
         margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .hero-text {
@@ -669,6 +679,31 @@ footer {
     .contact-grid {
         grid-template-columns: 1fr;
         padding: 30px;
+    }
+
+    .delivery-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .delivery-text {
+        order: 1;
+        text-align: center;
+    }
+
+    .delivery-img,
+    .delivery-image {
+        order: 2;
+        margin-top: 10px;
+        width: 350px;
+    }
+
+    .delivery-features {
+        text-align: left;
+    }
+    .delivery-features strong{
+        text-align: left;
+         white-space: nowrap;
     }
 }
 
