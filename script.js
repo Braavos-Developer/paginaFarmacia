@@ -4,14 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const newWhatsAppLink = 'https://wa.me/5579981282209?text=Olá%20Drogamed!%20Vim%20pelo%20site%20e%20gostaria%20de:%20%0A%0A🔹%20Informações%20sobre%20serviços%20farmacêuticos%0A🔹%20Valor%20do%20delivery%20para%20meu%20endereço%0A🔹%20Tirar%20dúvidas%20sobre%20medicamentos%0A%0AMeu%20endereço%20é:%20';
 
     const pharmacies = {
-        'farmacia-industrial': {
-            name: 'Farmácia Drogamed - Av. Desembargador',
-            address: 'Av. Desembargador Antônio Assis Xavier, 55 - Industrial, Aracaju/SE',
-            hours: 'Segunda a Sábado: 8h às 20h',
-            phone: '(79)9 8128-2209',
-            whatsapp: newWhatsAppLink,
-            mapId: 'farmacia-industrial-map'
-        },
         'farmacia-centro': {
             name: 'Farmácia Drogamed - Parque Shopping',
             address: 'Av. João Rodrigues, 42 - Industrial, Aracaju - SE, 49065-450',
@@ -19,6 +11,14 @@ document.addEventListener('DOMContentLoaded', function() {
             phone: '(79)9 8128-2209',
             whatsapp: newWhatsAppLink,
             mapId: 'farmacia-centro-map'
+        },
+        'farmacia-industrial': {
+            name: 'Farmácia Drogamed - Av. Desembargador',
+            address: 'Av. Desembargador Antônio Assis Xavier, 55 - Industrial, Aracaju/SE',
+            hours: 'Segunda a Sábado: 8h às 20h',
+            phone: '(79)9 8128-2209',
+            whatsapp: newWhatsAppLink,
+            mapId: 'farmacia-industrial-map'
         }
     };
 
